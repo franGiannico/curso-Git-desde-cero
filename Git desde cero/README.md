@@ -68,3 +68,9 @@ usamos el comando: (estando parados en la rama master) git branch -D (d mayuscul
 
 Para ignorar un archivo, que si necesitamos tenerlo en nuestro espacio de trabajo, pero que no queremos hacerle commit porque no es parte del proyecto (por ejemplo una hoja de notas), debemos crear un archivo en la raíz de nuestro proyecto en visual estudio code con el nombre:.gitignore. Y dentro del mismo debemos poner el nombre de todos los archivos que queremos que git ignore.
 
+
+GIT HUB PLATAFORMA PARA COMPARTIR EL PROYECTO EN LÍNEA Y TRABAJAR COLABORATIVAMENTE
+Despues de crear un usuario y subir la carpeta del proyecto en un nuevo repositorio, debemos aprender a subir los cambios que vamos haciendo en el proyecto. Para eso usamos el comando: git push origin + el nombre de la rama. Puede que nos pida el nombre de usuario y contraseña de git hub. 
+
+Para bajar información y cambios q están en la nube pero no en nuestra compu hacemos: git fetch origin, esto nos trae información sobre los commits que están en la nube, pero no nos baja aún los archivos al visual studio code.
+Con: git pull origin + nombre de la rama nos trae los archivos que nos faltan bajar. 
